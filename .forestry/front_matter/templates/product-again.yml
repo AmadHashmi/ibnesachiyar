@@ -4,32 +4,32 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
 - type: text
   name: description
-  label: description
+  label: Description
 - type: text
   name: price
-  label: price
+  label: Price
 - type: text
   name: priceBefore
-  label: priceBefore
+  label: Price Before
 - type: text
   name: shortDescription
-  label: shortDescription
+  label: Short Description
 - type: text
   name: productID
-  label: productID
+  label: Product ID
 - type: text
   name: type
-  label: type
+  label: Type
 - type: field_group_list
   name: images
-  label: images
+  label: Images
   fields:
   - type: file
     name: image
-    label: image
+    label: Image
