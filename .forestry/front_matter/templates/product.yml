@@ -4,10 +4,25 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
 - type: text
   name: description
-  label: description
+  label: Description
+- name: productID
+  type: text
+  config:
+    required: false
+  label: Product ID
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
