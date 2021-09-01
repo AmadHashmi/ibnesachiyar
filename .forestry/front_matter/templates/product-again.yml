@@ -33,3 +33,5 @@ fields:
   - type: file
     name: image
     label: Image
+pages:
+- content/products/this-is-a-new-product.md
