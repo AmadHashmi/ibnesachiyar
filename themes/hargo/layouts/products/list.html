@@ -1,6 +1,4 @@
-{{ define "main" }}
-
-{{ partial "page-title.html" . }}
+{{ define "main" }} {{ partial "page-title.html" . }}
 
 <section class="section pt-0">
   <div class="container">
@@ -9,9 +7,13 @@
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
-            {{ range first 1 .Params.Images }}
-            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top">
-            {{ end }}
+            {{ if isset .Params "images" }} {{ range first 1 .Params.Images }}
+            <img
+              src="{{ .image | absURL }}"
+              alt="{{ .Title }}"
+              class="card-img-top"
+            />
+            {{ end }} {{ end }}
           </a>
           <div class="card-body">
             <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
@@ -20,11 +22,31 @@
               {{ if .Params.PriceBefore }}
               <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
               {{ end }}
-              <span class="lead text-primary">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
+              <span class="lead text-primary"
+                >{{ site.Params.currencySymbol }}{{ .Params.Price }}</span
+              >
             </div>
-            <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
-              data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
-              {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
+            <button
+              class="snipcart-add-item btn btn-sm btn-outline-primary"
+              data-item-id="{{ .Params.ProductID }}"
+              data-item-name="{{ .Title }}"
+              {{ if isset .Params "images" }}
+              {{
+                range
+                first
+                1
+                .Params.Images
+                }}
+                data-item-image="{{ .image | absURL }}"
+                {{
+                end
+                }}
+              {{ end }}
+              
+              data-item-price="{{ .Params.Price }}"
+              data-item-url="{{ .Permalink }}"
+              data-item-description="{{ .Description }}"
+            >
               Add to cart
             </button>
           </div>
@@ -35,6 +57,4 @@
   </div>
 </section>
 
-{{ partial "cta.html" . }}
-
-{{ end }}
+{{ partial "cta.html" . }} {{ end }}
