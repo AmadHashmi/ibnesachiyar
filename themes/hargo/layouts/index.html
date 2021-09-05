@@ -345,7 +345,7 @@ site.Data.homepage.testimonial }}
 {{ end }}  -->
 
 <!-- Google Map -->
-{{ if site.Data.contact.map.enable }}
+<!-- {{ if site.Data.contact.map.enable }}
 <section class="section pt-0">
   <div class="container">
     <div id="map_canvas" data-latitude="{{ with site.Params.mapLatitude }} {{ . }} {{ end }}"
@@ -353,6 +353,6 @@ site.Data.homepage.testimonial }}
       data-marker="{{ with site.Params.mapMarker }} {{ . | absURL }} {{ end }}" data-marker-name="{{ site.Title }}"></div>
   </div>
 </section>
-{{ end }}
+{{ end }} -->
 <!-- Google Map Ends -->
 {{ end }}
