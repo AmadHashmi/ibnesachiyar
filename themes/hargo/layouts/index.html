@@ -343,4 +343,16 @@ site.Data.homepage.testimonial }}
 <!-- {{ if site.Data.homepage.cta.enable }} 
 {{ partial "cta.html" . }} 
 {{ end }}  -->
+
+<!-- Google Map -->
+{{ if site.Data.contact.map.enable }}
+<section class="section pt-0">
+  <div class="container">
+    <div id="map_canvas" data-latitude="{{ with site.Params.mapLatitude }} {{ . }} {{ end }}"
+      data-longitude="{{ with site.Params.mapLongitude }} {{ . }} {{ end }}"
+      data-marker="{{ with site.Params.mapMarker }} {{ . | absURL }} {{ end }}" data-marker-name="{{ site.Title }}"></div>
+  </div>
+</section>
+{{ end }}
+<!-- Google Map Ends -->
 {{ end }}
