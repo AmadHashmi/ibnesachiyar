@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://ibnesachiyar.netlify.app/"
 languageCode = "en"
-title = "Hargo | Hugo Ecommerce Site"
+title = "Ibn e Sachiyar | Fabrics Store"
 theme = "hargo"
 summaryLength = "20"
 paginate = 10
