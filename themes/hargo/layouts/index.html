@@ -122,10 +122,10 @@
 {{ end }} {{ end }}
 <!-- /about -->
 
-{{ if site.Data.homepage.cta.enable }} {{ partial "cta.html" . }} {{ end }}
+<!-- {{ if site.Data.homepage.cta.enable }} {{ partial "cta.html" . }} {{ end }} -->
 
 <!-- material -->
-{{ if site.Data.homepage.material.enable }} {{ with site.Data.homepage.material
+<!-- {{ if site.Data.homepage.material.enable }} {{ with site.Data.homepage.material
 }}
 <section class="section pb-0">
   <div class="container">
@@ -154,7 +154,7 @@
     </div>
   </div>
 </section>
-{{ end }} {{ end }}
+{{ end }} {{ end }} -->
 <!-- /material -->
 
 <!-- advantage -->
@@ -185,8 +185,8 @@ site.Data.homepage.advantage }}
 <!-- /advantage -->
 
 <!-- promo video -->
-{{ if site.Data.homepage.video.enable }} {{ with site.Data.homepage.video }}
-<section class="section pb-0">
+<!-- {{ if site.Data.homepage.video.enable }} {{ with site.Data.homepage.video }} -->
+<!-- <section class="section pb-0">
   <div class="container">
     <div class="row align-items-center justify-content-between">
       <div class="col-lg-5 col-md-6">
@@ -202,9 +202,9 @@ site.Data.homepage.advantage }}
             data-target="#videoModal2"
             class="text-color video-modal content-center"
             ><i class="ti-control-play bg-gradient btn-play-lg"></i
-          ></a>
+          ></a> -->
           <!-- Modal -->
-          <div
+ <!--          <div
             class="modal fade"
             id="videoModal2"
             tabindex="-1"
@@ -233,8 +233,8 @@ site.Data.homepage.advantage }}
       </div>
     </div>
   </div>
-</section>
-{{ end }} {{ end }}
+</section> -->
+<!-- {{ end }} {{ end }} -->
 <!-- /promo video -->
 
 <!-- products -->
@@ -262,15 +262,15 @@ site.Data.homepage.advantage }}
           <div class="card-body">
             <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
             <p>{{ .Params.Description }}</p>
-            <div class="mb-4">
+            <!-- <div class="mb-4">
               {{ if .Params.PriceBefore }}
               <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
               {{ end }}
               <span class="lead text-primary"
                 >{{ site.Params.currencySymbol }}{{ .Params.Price }}</span
               >
-            </div>
-            <button
+            </div> -->
+            <!-- <button
               class="snipcart-add-item btn btn-sm btn-outline-primary"
               data-item-id="{{ .Params.ProductID }}"
               data-item-name="{{ .Title }}"
@@ -289,7 +289,7 @@ site.Data.homepage.advantage }}
               data-item-description="{{ .Description }}"
             >
               Add to cart
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
@@ -301,7 +301,7 @@ site.Data.homepage.advantage }}
 <!-- /products -->
 
 <!-- testimonial -->
-{{ if site.Data.homepage.testimonial.enable }} {{ with
+<!-- {{ if site.Data.homepage.testimonial.enable }} {{ with
 site.Data.homepage.testimonial }}
 <section class="section">
   <div class="container">
@@ -337,8 +337,10 @@ site.Data.homepage.testimonial }}
     </div>
   </div>
 </section>
-{{ end }} {{ end }}
+{{ end }} {{ end }} -->
 <!-- /testimonial -->
 
-{{ if site.Data.homepage.cta.enable }} {{ partial "cta.html" . }} {{ end }} {{
-end }}
+<!-- {{ if site.Data.homepage.cta.enable }} 
+{{ partial "cta.html" . }} 
+{{ end }}  -->
+{{ end }}
