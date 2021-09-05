@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://ibnesachiyar.netlify.app/"
+baseURL = "https://www.ibnesachiyar.netlify.app/"
 languageCode = "en"
 title = "Hargo | Hugo Ecommerce Site"
 theme = "hargo"
