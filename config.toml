@@ -121,19 +121,19 @@ currencySymbol = "$"
   link = "#"
 
   [[params.social]]
-  icon = "ti-twitter-alt"
-  link = "#"
-
-  [[params.social]]
-  icon = "ti-youtube"
-  link = "#"
-
-  [[params.social]]
   icon = "ti-instagram"
   link = "#"
 
   [[params.social]]
-  icon = "ti-pinterest"
+  icon = "ti-mobile"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-email"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-twitter-alt"
   link = "#"
 
   # Contact Form
