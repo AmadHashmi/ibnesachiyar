@@ -13,16 +13,16 @@
   {{ end }} {{ hugo.Generator }} {{ "<!-- Plugins -->" | safeHTML }} {{ range site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .link | absURL }}" />
   {{ end }} {{ with site.Params.snipcartApiKey }} {{ "<!-- Snipcart -->" | safeHTML }}
-  <link rel="preconnect" href="https://app.snipcart.com/" />
-  <link rel="preconnect" href="https://cdn.snipcart.com/" />
-  <link
+  <!-- <link rel="preconnect" href="https://app.snipcart.com/" />
+  <link rel="preconnect" href="https://cdn.snipcart.com/" /> -->
+  <!-- <link
     rel="stylesheet"
     href="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.css"
-  />
-  <script
+  /> -->
+  <!-- <script
     async
     src="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.js"
-  ></script>
+  ></script> -->
   {{ end }} {{ "<!-- Main Stylesheet -->" | safeHTML }} {{ $styles := resources.Get "scss/style.scss" | toCSS | minify
   }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen" />
@@ -38,22 +38,15 @@
     href="{{ `images/favicon.png` | absURL }} "
     type="image/x-icon"
   />
-  <script src="https://use.fontawesome.com/a53b391e2d.js"></script>
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+  
+  <script defer src="/static/fontawesome/fontawesome-all.js"></script>
   <style type="text/css">
-    .navbar .navbar-nav .nav-link {
-    color: #000000;
-    font-size: 1.1em;
-}
-.navbar .navbar-nav .nav-link:hover{
-    color: #808080;
-}
-.sm-icons {
-  flex-direction: row;
-}
-@media only screen and (max-width: 960px) {
-  .sm-icons .nav-item {
-    padding-right: 1em;
-  }
+    .img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: 80px;
 }
   </style>
 </head>

@@ -17,6 +17,8 @@ disqusShortname = ""
   link = "plugins/slick/slick.css"
   [[params.plugins.css]]
   link = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  link = "plugins/fontawesome/css/all.css"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -117,23 +119,19 @@ currencySymbol = "$"
 
   # Social Site
   [[params.social]]
-  icon = "ti-facebook"
+  icon = "fab fa-facebook"
   link = "#"
 
   [[params.social]]
-  icon = "ti-instagram"
+  icon = "fab fa-instagram-square"
   link = "#"
 
   [[params.social]]
-  icon = "ti-mobile"
+  icon = "fas fa-envelope-square"
   link = "#"
 
   [[params.social]]
-  icon = "ti-email"
-  link = "#"
-
-  [[params.social]]
-  icon = "ti-twitter-alt"
+  icon = "fab fa-whatsapp"
   link = "#"
 
   # Contact Form
