@@ -1,7 +1,8 @@
 {{ define "main" }}
 
+
 <!-- Carousel -->
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
+<!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg" alt="First slide" />
@@ -13,42 +14,24 @@
       <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg" alt="Third slide" />
     </div>
   </div>
-</div>
-<!-- <div class="">
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img
-      src="https://www.w3schools.com/howto/img_nature_wide.jpg"
-      style="width: 100%"
-    />
-    <div class="text">Caption Text</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img
-      src="https://www.w3schools.com/howto/img_snow_wide.jpg"
-      style="width: 100%"
-    />
-    <div class="text">Caption Two</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img
-      src="https://www.w3schools.com/howto/img_mountains_wide.jpg"
-      style="width: 100%"
-    />
-    <div class="text">Caption Three</div>
-  </div>
-</div>
-<br />
-
-<div style="text-align: center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
 </div> -->
+<div id="carouselExampleControls" class="carousel slide" data-pause="false" data-ride="carousel" data-interval="5000">
+  {{if site.Data.homepage.carousel.enable}}
+    {{with site.Data.homepage.carousel}}
+  <div class="carousel-inner">
+    {{ $counter := 0 }}
+    {{ range .carouselItem }}
+    
+    <div class="carousel-item {{if eq $counter 0}}active{{end}}">
+      <img class="d-block w-100" src="{{.image}}" alt="" />
+    </div>
+    {{$counter = add $counter 1}}
+    {{end}}
+    <!-- d-block w-100 -->
+  </div>
+  {{end}}
+  {{end}}
+</div>
 
 <!-- Carousel end -->
 <!-- banner -->
