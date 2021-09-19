@@ -3,6 +3,7 @@ title: "Men Taba Cream"
 date: 2019-10-17T11:22:16+06:00
 draft: false
 
+
 # meta description
 description: "For Glowing Skin"
 
@@ -17,7 +18,7 @@ shortDescription: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
 productID: "1"
 
 # type must be "products"
-type: "products"
+type: "item"
 
 # product Images
 # first image will be shown in the product page

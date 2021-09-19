@@ -6,7 +6,7 @@ priceBefore = "26.00"
 productID = "This is the ID"
 shortDescription = "This is the short description"
 title = "Men This is an other product"
-type = ""
+type = "products"
 [[images]]
 image = "/uploads/product-1.png"
 [[images]]
