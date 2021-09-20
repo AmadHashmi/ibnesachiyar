@@ -5,6 +5,11 @@ fields:
 - type: text
   name: title
   label: Title
+- name: pagetype
+  type: text
+  config:
+    required: false
+  label: Page Type
 - type: datetime
   name: date
   label: Date
@@ -33,5 +38,3 @@ fields:
   - type: file
     name: image
     label: Image
-pages:
-- content/products/manuka-karandi-3-piece-collection-ferozi.md
