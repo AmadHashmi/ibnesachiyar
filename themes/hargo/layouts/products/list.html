@@ -3,8 +3,8 @@
 <section class="section pt-0">
   <div class="container">
     <div class="row">
-      {{ $paginator := .Paginate (.Site.Pages) }} {{ range $paginator.Pages }}
-      {{ if eq .Title "Products" }}
+      {{ $paginator := .Paginate (.Data.Pages) }} {{ range $paginator.Pages }}
+      {{ if eq .Type "products" }}
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
