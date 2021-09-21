@@ -4,11 +4,25 @@ carousel:
   title: "Carousel"
   carouselItem:
     # carousel item loop
-    - image: "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg" 
+    - image: "images/carousel/img1.jpg" 
     # carousel item loop
-    - image: "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg" 
+    - image: "images/carousel/img2.jpg"
     # carousel item loop
-    - image: "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg" 
+    - image: "images/carousel/img3.jpg"
+    # carousel item loop
+    - image: "images/carousel/img4.jpg"
+    # carousel item loop
+    - image: "images/carousel/img5.jpg"
+    # carousel item loop
+    - image: "images/carousel/img6.jpg"
+    # carousel item loop
+    - image: "images/carousel/img7.jpg"
+    # carousel item loop
+    - image: "images/carousel/img8.jpg"
+    # carousel item loop
+    - image: "images/carousel/img9.jpg"
+    # carousel item loop
+    - image: "images/carousel/img10.jpg"
 
 ############################ banner ##########################
 banner:
