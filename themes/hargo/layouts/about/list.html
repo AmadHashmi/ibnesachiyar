@@ -9,11 +9,11 @@
   <div class="container">
     <div class="row justify-content-around align-items-center">
       <div class="col-lg-12 col-md-6">
-        <img class="img-fluid align-items-center" align="text-center" src="{{ .image | absURL }}" alt="" />
+        <img class="img-fluid center" src="{{ .image | absURL }}" alt="" />
       </div>
       <div class="col-md-6 col-lg-12">
-        <h2 class="align-items-center">{{ .title | markdownify }}</h2>
-        <p class="align-items-center">{{ .content | markdownify }}</p>
+        <h2>{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
       </div>
     </div>
   </div>
