@@ -9,7 +9,7 @@ aboutUs:
   image: "images/about.png"
 
   ########################## About Our Fabric##############################
-aboutUs:
+aboutFabric:
   enable: true
   title: "About Our Fabric"
   content:
