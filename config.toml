@@ -4,7 +4,7 @@ languageCode = "en"
 title = "Ibn e Sachiyar | Fabrics Store"
 theme = "hargo"
 summaryLength = "20"
-paginate = 10
+paginate = 12
 disqusShortname = ""
 
 ############################# Plugins ##############################
