@@ -3,7 +3,7 @@
 {{ partial "page-title.html" . }}
 
 
-<!-- about -->
+<!-- about us -->
 {{ if site.Data.about.aboutUs.enable }} {{ with site.Data.about.aboutUs }}
 <section class="section">
   <div class="container">
@@ -19,10 +19,10 @@
   </div>
 </section>
 {{ end }} {{ end }}
-<!-- /about -->
+<!-- /about us-->
 
 
-<!-- about -->
+<!-- about our fabrics-->
 {{ if site.Data.about.aboutFabric.enable }} {{ with site.Data.about.aboutFabric }}
 <section class="section">
   <div class="container">
@@ -39,6 +39,41 @@
 </section>
 {{ end }} {{ end }}
 <!-- /about -->
+
+
+<!-- material -->
+{{ if site.Data.homepage.material.enable }} {{ with site.Data.homepage.material
+}}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <h2>{{ .title | markdownify }}</h2>
+        <p>{{ .subtitle | markdownify }}</p>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .materialItem }}
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card border-0 text-center">
+          <img
+            src="{{ .image | absURL }}"
+            alt="material"
+            class="card-img-top border-0"
+          />
+          <div class="card-body">
+            <h4>{{ .title | markdownify }}</h4>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }}
+<!-- /material -->
+
 
 
 
