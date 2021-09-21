@@ -35,7 +35,7 @@ disqusShortname = ""
 [menu]
 
   [[menu.main]]
-  name = "Products"
+  name = "Gallery"
   URL = "products"
   weight = 1
 
@@ -46,17 +46,7 @@ disqusShortname = ""
   weight = 2
 
 
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  parent="about"
-  weight = 1
-
-  [[menu.main]]
-  name = "FAQ"
-  URL = "faq"
-  parent="about"
-  weight = 2
+  
 
   [[menu.main]]
   name = "Contact"
@@ -65,29 +55,21 @@ disqusShortname = ""
 
   ############# footer menu #############
   [[menu.footer]]
-  name = "Products"
+  name = "Gallery"
   URL = "products"
   weight = 1
 
   [[menu.footer]]
-  name = "Blog"
-  URL = "blog"
+  name = "About"
+  URL = "about"
   weight = 2
 
-  [[menu.footer]]
-  name = "FAQ"
-  URL = "faq"
-  weight = 3
 
-  [[menu.footer]]
-  name = "Terms & Conditions"
-  URL = "terms-conditions"
-  weight = 4
 
   [[menu.footer]]
   name = "Contact"
   URL = "contact"
-  weight = 5
+  weight = 3
 
 
 #################### default parameters ################################
@@ -109,7 +91,7 @@ mobile = "0124857985320"
 email = "demo@email.com"
 location = "Dhaka, Bangladedsh"
 # copyright
-copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
+copyright = "| Copyright &copy; 2021 [Ibnesachiyarfabrics](https://gethugothemes.com) All Rights Reserved |"
 # Snipcart Credentials
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
 currencySymbol = "$"
