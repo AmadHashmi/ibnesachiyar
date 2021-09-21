@@ -40,14 +40,23 @@ disqusShortname = ""
   weight = 1
 
   [[menu.main]]
+  identifier="about"
+  name = "About"
+  URL = "about"
+  weight = 2
+
+
+  [[menu.main]]
   name = "Blog"
   URL = "blog"
-  weight = 2
+  parent="about"
+  weight = 1
 
   [[menu.main]]
   name = "FAQ"
   URL = "faq"
-  weight = 3
+  parent="about"
+  weight = 2
 
   [[menu.main]]
   name = "Contact"
