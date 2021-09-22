@@ -20,8 +20,6 @@ carousel:
     # carousel item loop
     - image: "images/carousel/img8.jpg"
     # carousel item loop
-    - image: "images/carousel/img9.jpg"
-    # carousel item loop
     - image: "images/carousel/img10.jpg"
 
 ############################ banner ##########################
