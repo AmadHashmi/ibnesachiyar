@@ -17,7 +17,7 @@ aboutFabric:
   title: "About Our Fabric"
   content:
     "No fakes and no duplicates. We have made it to our mission to
-     offer only 100% genuine products in the original packaging on Faisal Fabrics. 
+     offer only 100% genuine products in the original packaging on Ibn e Sachiyar Fabrics. 
     We work hard to provide you with the largest selection 
     of authentic and brand new products at the highest quality."
   image: "images/about.png"
@@ -25,28 +25,27 @@ aboutFabric:
   ######################## raw material #######################
 material:
   enable: true
-  title: "Ingredients Of Our Products"
+  title: "Our Promise"
   subtitle:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-    dol."
+    ""
   materialItem:
     # material item loop
-    - title: "Matcha Seeds"
+    - title: "100% Genuine Products"
       image: "images/material/material-1.png"
       content: "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
     # material item loop
-    - title: "Aloe Vera"
+    - title: "Safe & Secure Payments"
       image: "images/material/material-2.png"
       content: "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
     # material item loop
-    - title: "Turmeric"
+    - title: "Easy Returns"
       image: "images/material/material-3.png"
       content: "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
     # material item loop
-    - title: "Tulshi leaf"
+    - title: "24/7 Service"
       image: "images/material/material-4.png"
       content: "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
