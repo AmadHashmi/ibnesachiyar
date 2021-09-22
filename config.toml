@@ -82,13 +82,13 @@ author = "Themefisher"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 mapLatitude = "32.641698"
-mapLongitude = "-74.205133"
+mapLongitude = "74.205133"
 mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 # Contact Information
 mobile = "+923364125630"
-email = "demo@email.com"
+email = "sahibzadakazim@gmail.com"
 location = "Ibn e Sachiyar Fabrics, Main Bazar Jalalpur Jattan, near Tanda Chowk, Jalalpur Jattan, Gujrat"
 # copyright
 copyright = "| Copyright &copy; 2021 [Ibnesachiyarfabrics](https://ibnesachiyar.netlify.app) All Rights Reserved |"
