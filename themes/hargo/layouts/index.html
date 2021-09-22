@@ -36,8 +36,8 @@
 <!-- Carousel end -->
 
 
-<!-- about -->
-{{ if site.Data.homepage.about.enable }} {{ with site.Data.homepage.about }}
+<!-- men -->
+{{ if site.Data.homepage.men.enable }} {{ with site.Data.homepage.men }}
 <section class="section">
   <div class="container">
     <div class="row justify-content-around align-items-center">
@@ -52,7 +52,24 @@
   </div>
 </section>
 {{ end }} {{ end }}
-<!-- /about -->
+<!-- /men -->
+<!-- women -->
+{{ if site.Data.homepage.women.enable }} {{ with site.Data.homepage.women }}
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around align-items-center">
+      <div class="col-lg-5 col-md-6">
+        <h2>{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+      </div>
+      <div class="col-md-6 col-lg-5">
+        <img class="img-fluid" src="{{ .image | absURL }}" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }}
+<!-- /women -->
 
 <!-- {{ if site.Data.homepage.cta.enable }} {{ partial "cta.html" . }} {{ end }} -->
 
