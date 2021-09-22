@@ -87,7 +87,7 @@ mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 # Contact Information
-mobile = "0124857985320"
+mobile = "+923364125630"
 email = "demo@email.com"
 location = "Ibn e Sachiyar Fabrics, Main Bazar Jalalpur Jattan, near Tanda Chowk, Jalalpur Jattan, Gujrat"
 # copyright
@@ -111,7 +111,7 @@ currencySymbol = "$"
   # Social Site
   [[params.social]]
   icon = "fab fa-facebook"
-  link = "#"
+  link = "https://wa.me/923364125630"
 
   [[params.social]]
   icon = "fab fa-instagram-square"
@@ -123,7 +123,7 @@ currencySymbol = "$"
 
   [[params.social]]
   icon = "fab fa-whatsapp"
-  link = "#"
+  link = "https://wa.me/923364125630"
 
   # Contact Form
   [params.contact]
