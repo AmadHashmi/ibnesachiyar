@@ -3,14 +3,12 @@ aboutUs:
   enable: true
   title: "About US"
   content:
-    "FAISAL FABRICS! As the name says itself, aims to deliver the best 
-    shopping experience to customers. In 1965, Faisal Fabrics
+    "Ibn e Sachiyar FABRICS! As the name says itself, aims to deliver the best 
+    shopping experience to customers. Ibn e Sachiyar Fabrics
      started their journey with the aim to provide its customers 
      the premium quality fabric through physical store. Started with a small
-      team of 5 members, our focus was to deliver a comfortable and hassle
-    free service to our valued customers. Now with a large team of customer care 
-    and sales representatives,
-     we are satisfying the needs of more than 250k customers nationwide."
+      team of 5 members, our focus is to deliver a comfortable and hassle
+    free service to our valued customers."
   image: "images/about.png"
 
   ########################## About Our Fabric##############################
