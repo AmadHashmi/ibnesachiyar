@@ -3,9 +3,14 @@ aboutUs:
   enable: true
   title: "About US"
   content:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-    clita kasd gubergren,"
+    "FAISAL FABRICS! As the name says itself, aims to deliver the best 
+    shopping experience to customers. In 1965, Faisal Fabrics
+     started their journey with the aim to provide its customers 
+     the premium quality fabric through physical store. Started with a small
+      team of 5 members, our focus was to deliver a comfortable and hassle
+    free service to our valued customers. Now with a large team of customer care 
+    and sales representatives,
+     we are satisfying the needs of more than 250k customers nationwide."
   image: "images/about.png"
 
   ########################## About Our Fabric##############################
