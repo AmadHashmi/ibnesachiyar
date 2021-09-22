@@ -45,9 +45,10 @@ men:
   enable: true
   title: "Mens Collection"
   content:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-    clita kasd gubergren,"
+    "We provide fine quality and a luxury gentlemens shirting and 
+    shalwar kameez fabric with 
+    a soft touch, light feel and beautiful shine. All types of fabrics 
+    are available for men fashion."
   image: "images/mens.png"
 
 ########################## Womens ##############################
@@ -55,9 +56,11 @@ women:
   enable: true
   title: "Womens Collection"
   content:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-    clita kasd gubergren,"
+    "Women’s dress fabrics include a large variety of fabrics that 
+    can be generally distinguished by content or weave. The selection 
+    of a certain fabric depends on many factors, from the season and type 
+    of occasion to the sort of hand 
+    a woman wants to achieve and, certainly, current fashion trends."
   image: "images/womens.png"
 
 
