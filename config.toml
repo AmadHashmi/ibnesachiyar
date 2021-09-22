@@ -80,7 +80,7 @@ home = "Home"
 description = "This is meta description"
 author = "Themefisher"
 # google map
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyB4zRiguMkEC7KS7ozFcUlj5ximsz9c7cM=places"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyB4zRiguMkEC7KS7ozFcUlj5ximsz9c7cM"
 mapLatitude = "32.641698"
 mapLongitude = "74.205133"
 mapMarker = "images/marker.png"
