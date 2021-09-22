@@ -32,17 +32,17 @@ material:
     # material item loop
     - title: "100% Genuine Products"
       image: "images/material/material-1.png"
-      content: "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content: ""
 
     # material item loop
     - title: "Safe & Secure Payments"
       image: "images/material/material-2.png"
-      content: "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content: ""
 
     # material item loop
     - title: "Easy Returns"
       image: "images/material/material-3.png"
-      content: "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content: ""
 
 
 
