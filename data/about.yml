@@ -16,9 +16,10 @@ aboutFabric:
   enable: true
   title: "About Our Fabric"
   content:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-    clita kasd gubergren,"
+    "No fakes and no duplicates. We have made it to our mission to
+     offer only 100% genuine products in the original packaging on Faisal Fabrics. 
+    We work hard to provide you with the largest selection 
+    of authentic and brand new products at the highest quality."
   image: "images/about.png"
 
   ######################## raw material #######################
